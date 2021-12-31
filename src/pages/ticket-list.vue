@@ -12,7 +12,7 @@
         class="ticket-card"
       >
         <f7-card-content :padding="false">
-          <div class="active-ticket" :style="{ height: 'auto' }">
+          <!-- <div class="active-ticket" :style="{ height: 'auto' }"> -->
             <f7-card-header text-color="424E63" class="display-block">
               <span class="ticket-title">{{ ticket.name }}</span
               ><br />
@@ -46,7 +46,7 @@
               :style="{ position: 'absolute', right: '15px', top: '15px' }"
               icon-f7="xmark_circle_fill"
             ></f7-link>
-          </div>
+          <!-- </div> -->
           <div class="card-content-padding">
             <div style="text-align: center" class="ticket-detail-expand">
               Nomor Pesanan

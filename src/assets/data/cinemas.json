@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Central Park CGV",
+		"address": "JL. S. Parman Kav 28, Tanjung Duren, Jakarta Selatan - Grogol Petamburan, Jakarta Barat - DKI Jakarta",
+		"time_slot": [
+			"17:00",
+			"18:30",
+			"20:00",
+			"21.30"
+		]
+	},
+	{
+		"name": "Kemang Village XXI",
+		"address": "JL. S. Parman Kav 28, Tanjung Duren, Jakarta Selatan - Grogol Petamburan, Jakarta Barat - DKI Jakarta",
+		"time_slot": [
+			"17:00",
+			"18:30",
+			"20:00",
+			"21.30"
+		]
+	},
+	{
+		"name": "Taman Anggrek XXI",
+		"address": "JL. S. Parman Kav 28, Tanjung Duren, Jakarta Selatan - Grogol Petamburan, Jakarta Barat - DKI Jakarta",
+		"time_slot": [
+			"17:00",
+			"18:30",
+			"20:00",
+			"21.30"
+		]
+	}
+]

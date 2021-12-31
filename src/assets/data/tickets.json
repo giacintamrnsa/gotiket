@@ -1,0 +1,40 @@
+{
+	"other":[
+		{
+			"name": "Spider-Man: No Way Home",
+			"quantity": 4,
+			"location": "Kemang Village XXI",
+			"date": "Sabtu, 1 Januari 2022 | 18:30",
+			"state": "Dibayar",
+			"poster_link": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+			"badge_color": "blue"
+		},
+		{
+			"name": "Spider-Man: No Way Home",
+			"quantity": 2,
+			"location": "Kemang Village XXI",
+			"date": "Sabtu, 1 Januari 2022 | 20:00",
+			"state": "Menunggu Pembayaran",
+			"poster_link": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+			"badge_color": "green"
+		},
+		{
+			"name": "The Matrix Ressurection",
+			"quantity": 2,
+			"location": "Central Park CGV",
+			"date": "Jumat, 31 Desember 2021 | 18:30",
+			"state": "Selesai",
+			"poster_link": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+			"badge_color": "424e63"
+		},
+		{
+			"name": "Ghostbuster: Afterlife",
+			"quantity": 1,
+			"location": "Central Park CGV",
+			"date": "Jumat, 31 Desember 2021 | 18:30",
+			"state": "Dibatalkan",
+			"poster_link": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+			"badge_color": "red"
+		}
+	]
+}

@@ -25,11 +25,10 @@
       <f7-swiper
         loop
         @slideChange="onNowChange"
-        :effect="'coverflow'"
-        :grabCursor="true"
+        grabCursor="true"
         :centeredSlides="true"
         :slidesPerView="2"
-        :spaceBetween="5"
+        :spaceBetween="15"
         :coverflowEffect="{
           rotate: 50,
           stretch: 0,
@@ -113,7 +112,7 @@ import nowPlaying from "../assets/data/now_playing.json";
 import comingSoon from "../assets/data/coming_soon.json";
 import news from "../assets/data/news.json";
 
-import { f7 } from 'framework7-vue';
+import { f7 } from "framework7-vue";
 
 export default {
   data: function () {
@@ -133,21 +132,21 @@ export default {
       this.nowTitle = nowPlaying[idx].title;
     },
     signIn: function () {
-      if(this.username == "admin" && this.password == "admin") {
+      if (this.username == "admin" && this.password == "admin") {
         f7.loginScreen.close();
       } else {
         f7.dialog.alert(`Username dan password yang dimasukkan salah`, () => {
           this.username = "";
-      this.password = "";
+          this.password = "";
           f7.dialog.close();
         });
       }
     },
-    close: function() {
+    close: function () {
       this.username = "";
       this.password = "";
       f7.loginScreen.close();
-    }
+    },
   },
 };
 </script>

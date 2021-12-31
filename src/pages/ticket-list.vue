@@ -101,14 +101,14 @@ export default {
   font-size: 3.2vw;
   color: #424e63;
 }
-@media (max-width: 700px) {
+@media (max-width: 640) {
   .ticket-card {
     height: 60vw;
   }
 }
 
 .ticket-card {
-  height: 51vw;
+  height: 49vw;
 }
 
 .ticket-image {
@@ -124,5 +124,12 @@ export default {
   font-size: 3vw;
   color: #424e63;
   margin-bottom: 0px !important;
+}
+.card-backdrop {
+  animation: none !important;
+  transition: 400ms;
+}
+.card-backdrop-in {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 </style>
